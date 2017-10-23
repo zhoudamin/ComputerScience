@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a349f35b-0fd0-4866-bf59-d1cb7100a9dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/如何确保N个线程可以访问N个资源同时又不导致死锁？.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SQL/MySQL数据库优化的八种方式.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,13 +29,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="如何确保N个线程可以访问N个资源同时又不导致死锁？.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="如何确保N个线程可以访问N个资源同时又不导致死锁？.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Java/如何确保N个线程可以访问N个资源同时又不导致死锁？.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="81">
-                <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+                <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
                 <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MySQL数据库优化的八种方式.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SQL/MySQL数据库优化的八种方式.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="189">
+                <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                <folding>
+                  <marker date="1508718603944" expanded="true" signature="471:491" ph="SELECT * FRO... books" />
+                  <marker date="1508718603944" expanded="true" signature="471:516" ph="SELECT * FRO... books" />
+                  <marker date="1508718603944" expanded="true" signature="471:519" ph="SELECT * FRO... books" />
+                  <marker date="1508718603944" expanded="true" signature="533:594" ph="SELECT * FRO... books" />
+                  <marker date="1508718603944" expanded="true" signature="533:597" ph="SELECT * FRO... books" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -45,6 +64,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -57,6 +77,7 @@
       <list>
         <option value="$PROJECT_DIR$/Java/创建线程方式.md" />
         <option value="$PROJECT_DIR$/Java/如何确保N个线程可以访问N个资源同时又不导致死锁？.md" />
+        <option value="$PROJECT_DIR$/SQL/MySQL数据库优化的八种方式.md" />
       </list>
     </option>
   </component>
@@ -72,7 +93,9 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -99,6 +122,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ComputerScience" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComputerScience" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComputerScience" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SQL" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -535,7 +572,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508676808227</updated>
-      <workItem from="1508676821176" duration="2725000" />
+      <workItem from="1508676821176" duration="5242000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1508677044077</created>
@@ -565,11 +602,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508677886789</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new">
+      <created>1508679846378</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1508679846378</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2725000" />
+    <option name="totallyTimeSpent" value="5242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -656,8 +700,25 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="81">
-            <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
             <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQL/MySQL数据库优化的八种方式.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="189">
+            <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <folding>
+              <marker date="1508718603944" expanded="true" signature="471:491" ph="SELECT * FRO... books" />
+              <marker date="1508718603944" expanded="true" signature="471:516" ph="SELECT * FRO... books" />
+              <marker date="1508718603944" expanded="true" signature="471:519" ph="SELECT * FRO... books" />
+              <marker date="1508718603944" expanded="true" signature="533:594" ph="SELECT * FRO... books" />
+              <marker date="1508718603944" expanded="true" signature="533:597" ph="SELECT * FRO... books" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
