@@ -1,11 +1,4 @@
 # SpringBoot特性
-##
-
-
-
-
-
-## 特性
 * 创建独立运行的spring应用
 * 内置Tomcat，Jetty或Undertow
 * 提供starter的pom以简化maven设定
