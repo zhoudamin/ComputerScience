@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a349f35b-0fd0-4866-bf59-d1cb7100a9dc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/操作系统/进程间通信方式.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/计算机网络/拥塞控制&amp;流量控制.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -66,12 +68,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="分布式架构下系统间交互的5种通信模式.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="分布式架构下系统间交互的5种通信模式.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/分布式架构/分布式架构下系统间交互的5种通信模式.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="300">
                 <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="拥塞控制&amp;流量控制.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/计算机网络/拥塞控制&amp;流量控制.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="300">
+                <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="进程间通信方式.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/操作系统/进程间通信方式.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="305">
+                <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -97,6 +125,8 @@
         <option value="$PROJECT_DIR$/Java/如何确保N个线程可以访问N个资源同时又不导致死锁？.md" />
         <option value="$PROJECT_DIR$/SQL/MySQL数据库优化的八种方式.md" />
         <option value="$PROJECT_DIR$/框架/Springboot特性.md" />
+        <option value="$PROJECT_DIR$/计算机网络/拥塞控制&amp;流量控制.md" />
+        <option value="$PROJECT_DIR$/操作系统/进程间通信方式.md" />
       </list>
     </option>
   </component>
@@ -106,10 +136,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-52" />
-    <option name="width" value="1620" />
-    <option name="height" value="860" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="796" />
+    <option name="width" value="1524" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -143,7 +173,7 @@
             <path>
               <item name="ComputerScience" type="b2602c69:ProjectViewProjectNode" />
               <item name="ComputerScience" type="462c0819:PsiDirectoryNode" />
-              <item name="分布式架构" type="462c0819:PsiDirectoryNode" />
+              <item name="操作系统" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -572,7 +602,7 @@
       <option name="presentableId" value="Default" />
       <updated>1508676808227</updated>
       <workItem from="1508676821176" duration="9204000" />
-      <workItem from="1509238757425" duration="670000" />
+      <workItem from="1509238757425" duration="4392000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1508677044077</created>
@@ -637,14 +667,28 @@
       <option name="project" value="LOCAL" />
       <updated>1509238830005</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new">
+      <created>1509239437836</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1509239437836</updated>
+    </task>
+    <task id="LOCAL-00011" summary="new">
+      <created>1509239479612</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1509239479612</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9874000" />
+    <option name="totallyTimeSpent" value="13596000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="796" y="0" width="1524" height="920" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -658,7 +702,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49573562" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12997347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -804,6 +848,28 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="300">
             <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/计算机网络/拥塞控制&amp;流量控制.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="300">
+            <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作系统/进程间通信方式.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="305">
+            <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             <folding />
           </first_editor>
           <second_editor />
