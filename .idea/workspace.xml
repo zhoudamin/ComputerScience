@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a349f35b-0fd0-4866-bf59-d1cb7100a9dc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/架构/Web负载均衡.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/操作系统/什么情况下使用多线程.md" afterPath="$PROJECT_DIR$/操作系统/什么情况下使用多线程.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/分布式架构/分布式架构下系统间交互的5种通信模式.md" afterPath="$PROJECT_DIR$/架构/分布式架构下系统间交互的5种通信模式.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,12 +81,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="什么情况下使用多线程.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="什么情况下使用多线程.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/操作系统/什么情况下使用多线程.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+              <first_editor relative-caret-position="100">
+                <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Web负载均衡.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/架构/Web负载均衡.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="472">
+                <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -120,6 +134,7 @@
         <option value="$PROJECT_DIR$/设计模式/工厂模式.md" />
         <option value="$PROJECT_DIR$/Java/反射.md" />
         <option value="$PROJECT_DIR$/操作系统/什么情况下使用多线程.md" />
+        <option value="$PROJECT_DIR$/架构/Web负载均衡.md" />
       </list>
     </option>
   </component>
@@ -130,9 +145,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-107" />
-    <option name="y" value="37" />
-    <option name="width" value="1524" />
+    <option name="x" value="221" />
+    <option name="y" value="33" />
+    <option name="width" value="1339" />
     <option name="height" value="918" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -153,9 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,12 +183,12 @@
             <path>
               <item name="ComputerScience" type="b2602c69:ProjectViewProjectNode" />
               <item name="ComputerScience" type="462c0819:PsiDirectoryNode" />
-              <item name="分布式架构" type="462c0819:PsiDirectoryNode" />
+              <item name="操作系统" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ComputerScience" type="b2602c69:ProjectViewProjectNode" />
               <item name="ComputerScience" type="462c0819:PsiDirectoryNode" />
-              <item name="操作系统" type="462c0819:PsiDirectoryNode" />
+              <item name="架构" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ComputerScience" type="b2602c69:ProjectViewProjectNode" />
@@ -193,6 +205,9 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,15 +217,17 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\Github\ComputerScience\分布式架构" />
-      <recent name="G:\code\Java\ComputerScience" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Github\ComputerScience\架构" />
       <recent name="D:\Code\Github\ComputerScience\操作系统" />
       <recent name="D:\Code\Github\ComputerScience\设计模式" />
       <recent name="D:\Code\Github\ComputerScience\软件工程" />
       <recent name="G:\code\Java\ComputerScience\Java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Github\ComputerScience\架构" />
+      <recent name="D:\Code\Github\ComputerScience\分布式架构" />
+      <recent name="G:\code\Java\ComputerScience" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -621,7 +638,8 @@
       <workItem from="1508676821176" duration="9204000" />
       <workItem from="1509238757425" duration="6243000" />
       <workItem from="1509415001171" duration="367000" />
-      <workItem from="1509722987050" duration="352000" />
+      <workItem from="1509722987050" duration="941000" />
+      <workItem from="1509786791695" duration="1052000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1508677044077</created>
@@ -763,11 +781,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509723256241</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="new">
+      <created>1509723343730</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1509723343730</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18288000" />
+    <option name="totallyTimeSpent" value="19929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -784,7 +809,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49573562" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.133125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -823,6 +848,39 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Java/Java接口(interface)的用途和好处.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/反射.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="50">
+            <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/操作系统/什么情况下使用多线程.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="500">
+            <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/软件工程/瀑布模型.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1004,7 +1062,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/分布式架构/分布式架构下系统间交互的5种通信模式.md">
+    <entry file="file://$PROJECT_DIR$/架构/分布式架构下系统间交互的5种通信模式.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="300">
@@ -1202,7 +1260,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/分布式架构/分布式架构下系统间交互的5种通信模式.md">
+    <entry file="file://$PROJECT_DIR$/架构/分布式架构下系统间交互的5种通信模式.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="300">
@@ -1288,8 +1346,19 @@
     <entry file="file://$PROJECT_DIR$/操作系统/什么情况下使用多线程.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/架构/Web负载均衡.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="472">
+            <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor />
