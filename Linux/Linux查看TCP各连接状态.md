@@ -21,4 +21,4 @@ LAST-ACK（last-ack）：等待原来的发向远程TCP的连接中断请求的�
 
 TIME-WAIT（time-wait）：等待足够的时间以确保远程TCP接收到连接中断请求的确认
 
-CLOSED（closed）：      没有任何连接状态
+CLOSED（closed）：没有任何连接状态
