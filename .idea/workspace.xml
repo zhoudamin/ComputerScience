@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a349f35b-0fd0-4866-bf59-d1cb7100a9dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Linux/Linux查看TCP各连接状态.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SQL/索引的作用？和它的优点缺点是什么？ .md" afterPath="$PROJECT_DIR$/SQL/索引的作用？和它的优点缺点是什么？ .md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,19 +54,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Java接口(interface)的用途和好处.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/Java接口(interface)的用途和好处.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="反射.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Java/反射.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -97,8 +84,8 @@
         <entry file="file://$PROJECT_DIR$/架构/Web负载均衡.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="547">
-                <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <first_editor relative-caret-position="1425">
+                <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -106,12 +93,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Linux查看TCP各连接状态.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Linux查看TCP各连接状态.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Linux/Linux查看TCP各连接状态.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="225">
                 <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mysql语句级优化.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SQL/Mysql语句级优化.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="250">
+                <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="索引与算法.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SQL/索引与算法.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="索引的作用？和它的优点缺点是什么？ .md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SQL/索引的作用？和它的优点缺点是什么？ .md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="400">
+                <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -148,6 +174,8 @@
         <option value="$PROJECT_DIR$/操作系统/什么情况下使用多线程.md" />
         <option value="$PROJECT_DIR$/架构/Web负载均衡.md" />
         <option value="$PROJECT_DIR$/Linux/Linux查看TCP各连接状态.md" />
+        <option value="$PROJECT_DIR$/SQL/Mysql语句级优化.md" />
+        <option value="$PROJECT_DIR$/SQL/索引的作用？和它的优点缺点是什么？ .md" />
       </list>
     </option>
   </component>
@@ -181,13 +209,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ComputerScience" type="b2602c69:ProjectViewProjectNode" />
               <item name="ComputerScience" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComputerScience" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComputerScience" type="462c0819:PsiDirectoryNode" />
+              <item name="SQL" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ComputerScience" type="b2602c69:ProjectViewProjectNode" />
@@ -203,9 +237,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,17 +248,17 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Code\Github\ComputerScience\架构" />
-      <recent name="D:\Code\Github\ComputerScience\分布式架构" />
-      <recent name="G:\code\Java\ComputerScience" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\Github\ComputerScience\Linux" />
       <recent name="D:\Code\Github\ComputerScience\架构" />
       <recent name="D:\Code\Github\ComputerScience\操作系统" />
       <recent name="D:\Code\Github\ComputerScience\设计模式" />
       <recent name="D:\Code\Github\ComputerScience\软件工程" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Github\ComputerScience\架构" />
+      <recent name="D:\Code\Github\ComputerScience\分布式架构" />
+      <recent name="G:\code\Java\ComputerScience" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -794,11 +827,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509787854037</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="new">
+      <created>1510301678616</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1510301678616</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21671000" />
+    <option name="totallyTimeSpent" value="22319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -854,39 +894,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Java/反射.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="50">
-            <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/操作系统/什么情况下使用多线程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="500">
-            <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/软件工程/瀑布模型.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="100">
-            <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/软件工程/软件六大质量特性.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1352,8 +1359,8 @@
     <entry file="file://$PROJECT_DIR$/架构/Web负载均衡.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="547">
-            <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <first_editor relative-caret-position="1425">
+            <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1365,6 +1372,39 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="225">
             <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQL/Mysql语句级优化.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="250">
+            <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQL/索引与算法.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQL/索引的作用？和它的优点缺点是什么？ .md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="400">
+            <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
