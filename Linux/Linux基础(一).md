@@ -52,8 +52,8 @@ Command [选项] [参数]
          【案例】假设存在某个文件test.java中含有hanyang关键字，此时可以使用grep名命令来查找，grep n “hanyang” test.java，n表示在第n行出现 
          |，管道命令，在linux和unix系统，把上一个命令的结果交给|后面的命令处理 
          【案例】ls ‐l /etc/ | more 
-         - man [command]，帮助，类似于dos中的help 
-         
+  - man [command]，帮助，类似于dos中的help 
+     
    - find，搜索文件及目录。在linux中，因为文件系统是以级别式的结构来组成的，所以要在整个系统中找到特定的文件和目录并不是件容易的事。而“find”命令可以解决上述问题 
    - 在特定的目录下搜索并显示指定名称的文件和目录 
    【案例】find / -name man：意思是说从根目录开始搜索名称为man的文件或目录 
