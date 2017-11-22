@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a349f35b-0fd0-4866-bf59-d1cb7100a9dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/架构/JPA.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/架构/瞬时响应：网站的高性能架构.md" afterPath="$PROJECT_DIR$/架构/瞬时响应：网站的高性能架构.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,12 +119,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="瞬时响应：网站的高性能架构.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/架构/瞬时响应：网站的高性能架构.md">
+      <file leaf-file-name="优化网站性能的方法.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/架构/优化网站性能的方法.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="118">
-                <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+              <first_editor relative-caret-position="594">
+                <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -132,12 +132,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JPA.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/架构/JPA.md">
+      <file leaf-file-name="瞬时响应：网站的高性能架构.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/架构/瞬时响应：网站的高性能架构.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="324">
-                <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <first_editor relative-caret-position="172">
+                <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -178,7 +178,6 @@
         <option value="$PROJECT_DIR$/SQL/索引的作用？和它的优点缺点是什么？ .md" />
         <option value="$PROJECT_DIR$/Java/动态代理.md" />
         <option value="$PROJECT_DIR$/架构/瞬时响应：网站的高性能架构.md" />
-        <option value="$PROJECT_DIR$/架构/JPA.md" />
       </list>
     </option>
   </component>
@@ -212,7 +211,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -220,11 +219,6 @@
             <path>
               <item name="ComputerScience" type="b2602c69:ProjectViewProjectNode" />
               <item name="ComputerScience" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComputerScience" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerScience" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ComputerScience" type="b2602c69:ProjectViewProjectNode" />
@@ -255,7 +249,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -691,7 +685,6 @@
       <workItem from="1509786791695" duration="1663000" />
       <workItem from="1509890623887" duration="1131000" />
       <workItem from="1510399781607" duration="840000" />
-      <workItem from="1511351109946" duration="745000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1508677044077</created>
@@ -882,18 +875,11 @@
       <option name="project" value="LOCAL" />
       <updated>1511093409376</updated>
     </task>
-    <task id="LOCAL-00028" summary="new">
-      <created>1511093518626</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1511093518626</updated>
-    </task>
-    <option name="localTasksCounter" value="29" />
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25577000" />
+    <option name="totallyTimeSpent" value="24801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -949,6 +935,37 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/设计模式/工厂模式.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="250">
+            <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/Java接口(interface)的用途和好处.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/反射.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="50">
+            <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/软件工程/瀑布模型.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1419,39 +1436,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="621">
             <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/架构/优化网站性能的方法.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="594">
-            <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/架构/瞬时响应：网站的高性能架构.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="118">
-            <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/架构/JPA.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="324">
-            <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
